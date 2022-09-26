@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ac3c59b307fd4110d44bf16c7c1ed0fa" sys_domain="global" table="sys_user" version="3" view="sns">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_previous_experience</element>
+            <position>0</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>1d0a325207c60110d44bf16c7c1ed0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_language_skills</element>
+            <position>1</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>910a325207c60110d44bf16c7c1ed0e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_additional_info</element>
+            <position>2</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>190a325207c60110d44bf16c7c1ed0e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>9d0a325207c60110d44bf16c7c1ed0e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>4</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>150a325207c60110d44bf16c7c1ed0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>5</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>990a325207c60110d44bf16c7c1ed0e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_age</element>
+            <position>6</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>110a325207c60110d44bf16c7c1ed0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_is_company</element>
+            <position>7</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>950a325207c60110d44bf16c7c1ed0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_can_assist_with_accomodation</element>
+            <position>8</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>2d0a325207c60110d44bf16c7c1ed0e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_463716_safe_n_so_can_assist_with_work_permit</element>
+            <position>9</position>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 19:07:43</sys_created_on>
+            <sys_id>a10a325207c60110d44bf16c7c1ed0e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">ac3c59b307fd4110d44bf16c7c1ed0fa</sys_ui_section>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 19:07:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 17:52:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac3c59b307fd4110d44bf16c7c1ed0fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+            <sys_update_name>sys_ui_section_ac3c59b307fd4110d44bf16c7c1ed0fa</sys_update_name>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 17:52:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="sns" name="sns">e83c997307fd4110d44bf16c7c1ed08e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_dictionary" version="2" view="sns">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dictionary Entry - sns" name="sys_dictionary" related_list="NULL" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">acf3895a07020110d44bf16c7c1ed0c9</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:a403d812eb321100d4360c505206fe52</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_id>28f3895a07020110d44bf16c7c1ed0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dictionary Entry - sns" name="sys_dictionary" related_list="NULL" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">acf3895a07020110d44bf16c7c1ed0c9</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:9355cd9b0a000704053ea63b163e74b9</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_id>acf3895a07020110d44bf16c7c1ed0ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dictionary Entry - sns" name="sys_dictionary" related_list="NULL" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">acf3895a07020110d44bf16c7c1ed0c9</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sys_schema_attribute_m2m.schema</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_id>24f3895a07020110d44bf16c7c1ed0cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dictionary Entry - sns" name="sys_dictionary" related_list="NULL" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">acf3895a07020110d44bf16c7c1ed0c9</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:936d24940a0007040df60be53657a3db</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_id>a8f3895a07020110d44bf16c7c1ed0cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Dictionary Entry - sns" name="sys_dictionary" related_list="NULL" sys_domain="global" view="e83c997307fd4110d44bf16c7c1ed08e">acf3895a07020110d44bf16c7c1ed0c9</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:aa6e720d0a0a0b8c000f785922ec5f96</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_id>20f3895a07020110d44bf16c7c1ed0cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Dictionary Entry - sns</calculated_name>
+            <filter/>
+            <name>sys_dictionary</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-03-07 10:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acf3895a07020110d44bf16c7c1ed0c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dictionary Entry - sns</sys_name>
+            <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+            <sys_update_name>sys_ui_related_sys_dictionary_sns</sys_update_name>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-03-07 10:31:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="sns" name="sns">e83c997307fd4110d44bf16c7c1ed08e</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

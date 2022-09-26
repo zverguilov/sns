@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b2a0ea7b07b18110d44bf16c7c1ed07b</sp_column>
+        <sp_widget display_value="SNS Main">0ab01e6e07424110d44bf16c7c1ed08f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-03-08 10:46:57</sys_created_on>
+        <sys_id>f7f0da6e07424110d44bf16c7c1ed08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_instance_f7f0da6e07424110d44bf16c7c1ed08e</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-03-08 10:46:57</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7f0da6e07424110d44bf16c7c1ed08e"/>
+</record_update>

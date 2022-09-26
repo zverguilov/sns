@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="header test">b4503f62075af010d44bf16c7c1ed0af</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 22:59:20</sys_created_on>
+        <sys_id>884226fb07b18110d44bf16c7c1ed0fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SNS Menu</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_instance_menu_884226fb07b18110d44bf16c7c1ed0fb</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:10:33</sys_updated_on>
+        <title>SNS Menu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=884226fb07b18110d44bf16c7c1ed0fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</application>
+        <file_path/>
+        <instance_id>1d64aec2db06f3082f68c597059619f0</instance_id>
+        <instance_name>dev87737</instance_name>
+        <name>sp_instance_menu_884226fb07b18110d44bf16c7c1ed0fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget display_value="header test">b4503f62075af010d44bf16c7c1ed0af</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>zdravko.verguilov</sys_created_by><sys_created_on>2022-02-27 22:59:20</sys_created_on><sys_id>884226fb07b18110d44bf16c7c1ed0fb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SNS Menu</sys_name><sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package><sys_policy/><sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope><sys_update_name>sp_instance_menu_884226fb07b18110d44bf16c7c1ed0fb</sys_update_name><sys_updated_by>zdravko.verguilov</sys_updated_by><sys_updated_on>2022-02-27 23:10:33</sys_updated_on><title>SNS Menu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=884226fb07b18110d44bf16c7c1ed0fb"/></record_update>]]></payload>
+        <payload_hash>-1489232594</payload_hash>
+        <record_name>SNS Menu</record_name>
+        <reverted_from/>
+        <source>b3d384bb07b94110d44bf16c7c1ed006</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 23:10:33</sys_created_on>
+        <sys_id>ace42a7f07b18110d44bf16c7c1ed0e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3d732fe40000001</sys_recorded_at>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:10:33</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>64e42a7fb5b18110dbdd7e7ede7a24e1</update_guid>
+        <update_guid_history>64e42a7fb5b18110dbdd7e7ede7a24e1:-1489232594,d45266fbefb1811030210ea0d0768633:1985784547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SNS Menu">67a56e7f07b18110d44bf16c7c1ed0e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 23:14:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>21821e526ee94351961e9ffe20c41d01</sys_id>
+        <sys_metadata>884226fb07b18110d44bf16c7c1ed0fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNS Menu</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_scope_delete display_value="">5fd49b501bdf4b5e81c2cc179887f404</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_884226fb07b18110d44bf16c7c1ed0fb</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_884226fb07b18110d44bf16c7c1ed0fb">ace42a7f07b18110d44bf16c7c1ed0e1</sys_update_version>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:14:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

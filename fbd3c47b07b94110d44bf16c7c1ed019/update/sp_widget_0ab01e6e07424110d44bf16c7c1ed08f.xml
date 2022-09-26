@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	c.toggleFilter = false;
+	
+	c.search = {
+		lob:{},
+		language: {},
+		info: '',
+		name: '',
+		wp: '',
+		accAssistance: '',
+		wpAssistance: ''
+	};
+	
+	c.preventFalse = function(prop) {
+		c.search[prop] = c.search[prop] == false ? '' : c.search[prop];
+	}
+	
+	c.toggleFilterRow = function() {
+		c.toggleFilter = !c.toggleFilter;
+	}
+	
+	c.filter = function(value, action) {
+		c[value] = c[value] ? false : true;
+		c.data.action = action;
+		c.data.value = value;
+		c.data.toggle = c[value];
+		c.data.query = $scope.data.query;
+		
+		c.server.update();
+	}
+	
+	c.test = function(e) {
+		setTimeout(function() {
+			alert($scope.fl);
+		}, 500);
+	}
+	
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.main {
+  background-color: rgba(255,255,255,.85);
+}
+
+.test {
+	opacity: 1;
+}
+
+.info {
+  width: 30%;
+}
+
+.name {
+  width: 15%;
+}
+
+.mid {
+  text-align: center;
+}
+
+.checkCell {
+  width: 8%;
+}
+
+.left {
+  margin: 0 1rem 0 0;
+  color: blue;
+}
+
+.cat {
+  width: 15%
+}
+
+.catCell {
+  //display: flex;
+  //flex-direction: column;  
+}
+
+.filterCell {
+  text-align: center;
+}
+
+.red {
+  color: crimson;
+}
+
+.fa-times-circle {
+  color: crimson;
+}
+
+.fa-check-circle {
+  color: green;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+input {
+  width: 80%;
+}
+
+th {
+  padding: .5rem;
+}
+
+td {
+  padding: 2rem 1rem 1rem 2rem;
+}
+
+a {
+  margin: 0 .2rem 0 .2rem
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>sns_main</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SNS Main</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	function compare(arrayA, arrayB) {
+		return new global.ArrayUtil().diff(arrayA, arrayB).length;
+	}
+
+	function buildArray(userGR, field) {
+		var displays = userGR.getDisplayValue(field).split(',');
+
+		return userGR.getValue(field).split(',').map(function(e, i) {
+			return {value: e,
+							display: displays[i]};
+		});		
+	}
+
+	data.users = [];
+
+	var user = new GlideRecord('sys_user');
+	user.get(gs.getUserID());
+
+	data.view = user.x_463716_safe_n_so_is_company ? 'company' : 'user';
+
+	data.query = 'x_463716_safe_n_so_sns_user=true';
+	data.query += user.x_463716_safe_n_so_is_company ? '^x_463716_safe_n_so_is_company=false' : '^x_463716_safe_n_so_is_company=true';
+
+	if(input)
+		switch(input.action) {
+			case 'lobFilter':
+				data.query = input.toggle ?
+					input.query + '^x_463716_safe_n_so_previous_experienceLIKE' + input.value :
+				input.query.replace('^x_463716_safe_n_so_previous_experienceLIKE' + input.value, '');
+				break;
+
+			case 'langFilter':
+				data.query = input.toggle ?
+					input.query + '^x_463716_safe_n_so_language_skillsLIKE' + input.value :
+				input.query.replace('^x_463716_safe_n_so_language_skillsLIKE' + input.value, '');
+				break;
+		}
+
+	var objects = new GlideRecord('sys_user');
+	objects.addEncodedQuery(data.query);
+	objects.query();
+
+	console.log(objects.getEncodedQuery())
+
+	while(objects.next()) {
+		data.users.push({
+			name: objects.getValue('name'),
+			info: objects.getValue('x_463716_safe_n_so_additional_info'),
+			language: buildArray(objects, 'x_463716_safe_n_so_language_skills'),
+			lob: buildArray(objects, 'x_463716_safe_n_so_previous_experience'),
+			wp: objects.getValue('x_463716_safe_n_so_work_permit') == 1 ? 'Yes' : 'No',
+			wpAssistance: objects.getValue('x_463716_safe_n_so_can_assist_with_work_permit') == 1 ? true : false,
+			accAssistance: objects.getValue('x_463716_safe_n_so_can_assist_with_accomodation') == 1 ? true : false,
+			match: compare(user.getValue('x_463716_safe_n_so_previous_experience').split(','),
+										 objects.getValue('x_463716_safe_n_so_previous_experience').split(','))
+		})
+	}
+
+	data.users.sort(function(a, b) {
+		return a.match - b.match;
+	})
+
+	console.log(JSON.stringify(data.users))
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-03-08 10:46:04</sys_created_on>
+        <sys_id>0ab01e6e07424110d44bf16c7c1ed08f</sys_id>
+        <sys_mod_count>168</sys_mod_count>
+        <sys_name>SNS Main</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_widget_0ab01e6e07424110d44bf16c7c1ed08f</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-03-10 13:54:29</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="main">
+    <table>
+      <thead>
+        <th scope="col"
+            colspan="1"
+            class="name">
+          <i class="fa fa-search-plus left"
+             ng-if="!c.toggleFilter"
+             ng-click="c.toggleFilterRow()"
+             aria-hidden="true"></i>
+          <i class="fa fa-search-minus left"
+             ng-if="c.toggleFilter"
+             ng-click="c.toggleFilterRow()"
+             aria-hidden="true"></i>
+          ${Name}
+        </th>
+        <th scope="col" colspan="1" class="mid info">${Info}</th>
+        <th scope="col" colspan="1" class="mid cat">${Line of Business}</th>
+        <th scope="col" colspan="1" ng-if="data.view == 'company'" class="mid checkCell">${Work Permit}</th>
+        <th scope="col" colspan="1" ng-if="data.view == 'user'" class="mid checkCell">${Work Permit Assistance} </th>
+        <th scope="col" colspan="1" ng-if="data.view == 'user'" class="mid checkCell">${Accomodation Assistance}</th>
+        <th scope="col" colspan="1" class="mid cat">${Language Requirements}</th>
+      </thead>
+      <tbody>
+        <tr ng-if="c.toggleFilter">
+          <td class="filterCell">
+            <input type="text" ng-model="c.search.name"/>
+          </td>
+          <td  class="filterCell">
+            <input type="text" ng-model="c.search.info"/>
+          </td>
+          <td  class="filterCell">
+            <input type="text" ng-model="c.search.lob.display"/>
+          </td>
+          <td class="mid">
+            <input type="checkbox" ng-model="c.search.wpAssistance" ng-change="c.preventFalse('wpAssistance')"/>
+          </td>
+          <td class="mid">
+            <input type="checkbox" ng-model="c.search.accAssistance" ng-change="c.preventFalse('accAssistance')"/>
+          </td>
+          <td class="filterCell">
+            <input type="text" ng-model="c.search.language.display"/>
+          </td>
+        </tr>
+        <tr ng-repeat="user in data.users | filter: c.search">
+          <td ng-bind-html="user.name">
+            <a href="" target="_blank" rel="noopener noreferrer"></a>
+          </td>
+          <td>{{user.info | limitTo: 150}}{{user.info.length > 150 ? '...' : ''}}</td>
+          <td class="mid catCell">
+            <a ng-repeat="cat in user.lob"
+               ng-bind-html="cat.display"
+               ng-click="c.filter(cat.value, 'lobFilter')"
+               ng-class="{'red': c[cat.value]}"/>
+          </td>
+          <td ng-bind-html="user.wp" ng-if="data.view == 'company'"/>
+          <td ng-if="data.view == 'user'" class="mid">
+            <i class="fa fa-times-circle" aria-hidden="true" ng-if="!user.wpAssistance"/>
+            <i class="fa fa-check-circle" aria-hidden="true" ng-if="user.wpAssistance"/>
+          </td>
+          <td ng-if="data.view == 'user'" class="mid">
+            <i class="fa fa-times-circle" aria-hidden="true" ng-if="!user.accAssistance"/>
+            <i class="fa fa-check-circle" aria-hidden="true" ng-if="user.accAssistance"/>
+          </td>
+          <td class="mid catCell">
+            <a ng-repeat="lang in user.language"
+               ng-bind-html="lang.display"
+               ng-click="c.filter(lang.value, 'langFilter')"
+               ng-class="{'red': c[lang.value]}"/>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

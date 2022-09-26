@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_463716_safe_n_so.sns_admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_463716_safe_n_so.sns_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 11:27:40</sys_created_on>
+        <sys_id>60040c7b07b94110d44bf16c7c1ed09f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_463716_safe_n_so.sns_admin</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sys_user_role_60040c7b07b94110d44bf16c7c1ed09f</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 11:27:40</sys_updated_on>
+    </sys_user_role>
+</record_update>

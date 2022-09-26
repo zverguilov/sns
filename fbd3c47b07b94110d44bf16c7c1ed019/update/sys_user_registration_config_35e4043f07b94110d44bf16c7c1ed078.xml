@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user_registration_config">
+    <sys_user_registration_config action="INSERT_OR_UPDATE">
+        <activation_error_page display_value="sn_user_activation_error">b8e54fb1533200102b12ddeeff7b1286</activation_error_page>
+        <activation_link_expiry_time>24</activation_link_expiry_time>
+        <activation_success_page display_value="sn_user_activation_success">2df447b1533200102b12ddeeff7b12c5</activation_success_page>
+        <activation_table>u_user_acti_req_408581</activation_table>
+        <active>true</active>
+        <description/>
+        <enable_captcha>false</enable_captcha>
+        <enable_terms>false</enable_terms>
+        <internal_name>x_463716_safe_n_so.Safe 'n Sound</internal_name>
+        <name>Safe 'n Sound</name>
+        <post_registration_redirect_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</post_registration_redirect_page>
+        <record_producer display_value="Safe 'n Sound">38f4483f07b94110d44bf16c7c1ed035</record_producer>
+        <registration_label>Register</registration_label>
+        <registration_table>u_user_reg_req_408581</registration_table>
+        <requires_user_verification>true</requires_user_verification>
+        <role_to_assign name="snc_external">940ba702933002009c8579b4f47ffbe2</role_to_assign>
+        <sys_class_name>sys_user_registration_config</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 11:31:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>35e4043f07b94110d44bf16c7c1ed078</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Safe 'n Sound</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sys_user_registration_config_35e4043f07b94110d44bf16c7c1ed078</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 11:31:51</sys_updated_on>
+        <terms_and_condition_url/>
+        <transform_map display_value="u_reg_xmap_185474">adf4483f07b94110d44bf16c7c1ed0b3</transform_map>
+        <user_onboarding_flow display_value="External User Onboarding">3539c77e5376001001a3ddeeff7b1214</user_onboarding_flow>
+        <user_table>u_self_reg_user_profile_408581</user_table>
+        <user_verification_flow display_value="External User Verification">ecebaf7a533200102b12ddeeff7b1257</user_verification_flow>
+    </sys_user_registration_config>
+</record_update>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_user_acti_req_408581" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>8d2748bf07b94110d44bf16c7c1ed055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>accepted_tc_date</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>152748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>city</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>952748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>country</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>192748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>edu_status</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>992748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>1d2748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>first_name</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>9d2748bf07b94110d44bf16c7c1ed056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gender</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>112748bf07b94110d44bf16c7c1ed057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>home_phone</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>912748bf07b94110d44bf16c7c1ed057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>import_set_run</element>
+            <list_id display_value="u_user_acti_req_408581" element="NULL" name="u_user_acti_req_408581" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">cd2748bf07b94110d44bf16c7c1ed054</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_id>152748bf07b94110d44bf16c7c1ed057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_user_acti_req_408581</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:41:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd2748bf07b94110d44bf16c7c1ed054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_user_acti_req_408581</sys_name>
+            <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+            <sys_update_name>sys_ui_list_u_user_acti_req_408581_null</sys_update_name>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:41:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

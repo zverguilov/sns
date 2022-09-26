@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_self_registered_user_profile" label="Self Reg User Profile 408581" max_length="40" name="u_self_reg_user_profile_408581" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=x_463716_safe_n_so_company" label="Company" max_length="40" name="x_463716_safe_n_so_company" type="boolean"/>
+    </element>
+</database>

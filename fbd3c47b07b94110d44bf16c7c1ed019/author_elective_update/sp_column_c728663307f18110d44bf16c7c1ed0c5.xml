@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">3628663307f18110d44bf16c7c1ed0be</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 23:24:55</sys_created_on>
+        <sys_id>c728663307f18110d44bf16c7c1ed0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_column_c728663307f18110d44bf16c7c1ed0c5</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:24:55</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</application>
+        <file_path/>
+        <instance_id>1d64aec2db06f3082f68c597059619f0</instance_id>
+        <instance_name>dev87737</instance_name>
+        <name>sp_column_c728663307f18110d44bf16c7c1ed0c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">3628663307f18110d44bf16c7c1ed0be</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>zdravko.verguilov</sys_created_by><sys_created_on>2022-02-27 23:24:55</sys_created_on><sys_id>c728663307f18110d44bf16c7c1ed0c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package><sys_policy/><sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope><sys_update_name>sp_column_c728663307f18110d44bf16c7c1ed0c5</sys_update_name><sys_updated_by>zdravko.verguilov</sys_updated_by><sys_updated_on>2022-02-27 23:24:55</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-459645816</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>b3d384bb07b94110d44bf16c7c1ed006</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 23:24:55</sys_created_on>
+        <sys_id>0328663307f18110d44bf16c7c1ed0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f3d8056180000001</sys_recorded_at>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:24:55</sys_updated_on>
+        <type>Column</type>
+        <update_guid>0b286633a9f181103705f68a5acb1dc6</update_guid>
+        <update_guid_history>0b286633a9f181103705f68a5acb1dc6:-459645816</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">90a8ee3307f18110d44bf16c7c1ed0d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 23:26:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0964c8de1bdf43ed806ab91d25af1169</sys_id>
+        <sys_metadata>c728663307f18110d44bf16c7c1ed0c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_scope_delete display_value="">5fd49b501bdf4b5e81c2cc179887f404</sys_scope_delete>
+        <sys_update_name>sp_column_c728663307f18110d44bf16c7c1ed0c5</sys_update_name>
+        <sys_update_version display_value="sp_column_c728663307f18110d44bf16c7c1ed0c5">0328663307f18110d44bf16c7c1ed0c7</sys_update_version>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:26:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

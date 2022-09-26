@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="External User Self-Registration" source="com.snc.external_user_self_registration">6ee8cd5e07c6f010d44bf16c7c1ed018</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 11:31:45</sys_created_on>
+        <sys_id>98f4083f07b94110d44bf16c7c1ed0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 11:31:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

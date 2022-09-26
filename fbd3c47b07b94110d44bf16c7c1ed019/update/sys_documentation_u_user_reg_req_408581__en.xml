@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="User Reg Req 408581" language="en" table="u_user_reg_req_408581">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>User Reg Req 408581</label>
+            <language>en</language>
+            <name>u_user_reg_req_408581</name>
+            <plural>User Reg Req 408581s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>zdravko.verguilov</sys_created_by>
+            <sys_created_on>2022-02-27 11:31:45</sys_created_on>
+            <sys_id>94f4083f07b94110d44bf16c7c1ed0a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User Reg Req 408581</sys_name>
+            <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+            <sys_update_name>sys_documentation_u_user_reg_req_408581__en</sys_update_name>
+            <sys_updated_by>zdravko.verguilov</sys_updated_by>
+            <sys_updated_on>2022-02-27 11:31:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

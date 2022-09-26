@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.page {&#13;
+  background: url('ukr.jpg');&#13;
+  background-repeat: no-repeat;&#13;
+  background-size: cover;&#13;
+  background-position: center;&#13;
+}&#13;
+&#13;
+&#13;
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>sns_main</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 11:33:36</sys_created_on>
+        <sys_id>c235cc3f07b94110d44bf16c7c1ed021</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sns_main</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_page_c235cc3f07b94110d44bf16c7c1ed021</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-03-10 13:40:14</sys_updated_on>
+        <title>Safe 'n Sound</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=c235cc3f07b94110d44bf16c7c1ed021"/>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>cah</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-04-23 13:11:41</sys_created_on>
+        <sys_id>6c3ba35907830110d44bf16c7c1ed051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cah</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_page_6c3ba35907830110d44bf16c7c1ed051</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-04-23 13:11:41</sys_updated_on>
+        <title>CAH</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=6c3ba35907830110d44bf16c7c1ed051"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</application>
+        <file_path/>
+        <instance_id>1d64aec2db06f3082f68c597059619f0</instance_id>
+        <instance_name>dev87737</instance_name>
+        <name>sp_page_6c3ba35907830110d44bf16c7c1ed051</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>cah</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>zdravko.verguilov</sys_created_by><sys_created_on>2022-04-23 13:11:41</sys_created_on><sys_id>6c3ba35907830110d44bf16c7c1ed051</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cah</sys_name><sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package><sys_policy/><sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope><sys_update_name>sp_page_6c3ba35907830110d44bf16c7c1ed051</sys_update_name><sys_updated_by>zdravko.verguilov</sys_updated_by><sys_updated_on>2022-04-23 13:11:41</sys_updated_on><title>CAH</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=6c3ba35907830110d44bf16c7c1ed051"/></record_update>]]></payload>
+        <payload_hash>-420976901</payload_hash>
+        <record_name>cah</record_name>
+        <reverted_from/>
+        <source>b3d384bb07b94110d44bf16c7c1ed006</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-04-23 13:11:41</sys_created_on>
+        <sys_id>d84bef1907830110d44bf16c7c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180568cadf00000001</sys_recorded_at>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-04-23 13:11:41</sys_updated_on>
+        <type>Page</type>
+        <update_guid>d04bef196b8301105adb832b4b5bd764</update_guid>
+        <update_guid_history>d04bef196b8301105adb832b4b5bd764:-420976901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cah">844daf9907830110d44bf16c7c1ed053</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-04-23 13:20:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>927ef9ea29074d149e38f4291d70d691</sys_id>
+        <sys_metadata>6c3ba35907830110d44bf16c7c1ed051</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cah</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_scope_delete display_value="">5fd49b501bdf4b5e81c2cc179887f404</sys_scope_delete>
+        <sys_update_name>sp_page_6c3ba35907830110d44bf16c7c1ed051</sys_update_name>
+        <sys_update_version display_value="sp_page_6c3ba35907830110d44bf16c7c1ed051">d84bef1907830110d44bf16c7c1ed064</sys_update_version>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-04-23 13:20:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

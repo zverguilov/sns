@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="sns_main">c235cc3f07b94110d44bf16c7c1ed021</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="sns">08066abf07b18110d44bf16c7c1ed032</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>zdravko.verguilov</sys_created_by>
+        <sys_created_on>2022-02-27 11:30:24</sys_created_on>
+        <sys_id>4894c03f07b94110d44bf16c7c1ed003</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Safe 'n Sound</sys_name>
+        <sys_package display_value="Safe 'n Sound" source="x_463716_safe_n_so">fbd3c47b07b94110d44bf16c7c1ed019</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safe 'n Sound">fbd3c47b07b94110d44bf16c7c1ed019</sys_scope>
+        <sys_update_name>sp_portal_4894c03f07b94110d44bf16c7c1ed003</sys_update_name>
+        <sys_updated_by>zdravko.verguilov</sys_updated_by>
+        <sys_updated_on>2022-02-27 23:26:18</sys_updated_on>
+        <theme display_value="La Jolla SNS">5677eabf07b18110d44bf16c7c1ed027</theme>
+        <title>Safe 'n Sound</title>
+        <ts_index_group/>
+        <url_suffix>sns</url_suffix>
+        <user_registration_config display_value="Safe 'n Sound">35e4043f07b94110d44bf16c7c1ed078</user_registration_config>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=4894c03f07b94110d44bf16c7c1ed003"/>
+</record_update>
